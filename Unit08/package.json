@@ -1,0 +1,19 @@
+{
+  "name": "wtcu_tracking",
+  "version": "1.0.0",
+  "description": "A simple static Wake Tech Credit Union web site powered by connect framework",
+  "main": "app.js",
+  "dependencies": {
+    "connect": "^3.4.1",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.17",
+    "serve-static": "^1.11.1"
+  },
+  "repository": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Mrs. Andrews",
+  "license": "ISC"
+}
