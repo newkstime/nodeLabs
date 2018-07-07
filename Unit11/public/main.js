@@ -26,7 +26,7 @@ demoApp.controller('MainController', ['$scope', 'todoWebService', function ($sco
             vm.list.push({
                 _id: response.data.itemId,
                 details: item.details,
-                duedate: vm.newDueDate
+                duedate: item.dueDate
             });
         });
     };
